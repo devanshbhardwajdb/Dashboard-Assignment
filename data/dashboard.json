@@ -1,0 +1,202 @@
+{
+  "categories": [
+    {
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": 1,
+          "name": "Cloud Accounts",
+          "data": {
+            "labels": ["Connected", "Not Connected"],
+            "datasets": [{
+              "label": "Cloud Accounts",
+              "data": [2, 2],
+              "backgroundColor": ["#36A2EB", "#FF6384"],
+              "borderColor": ["#36A2EB", "#FF6384"],
+              "borderWidth": 1
+            }]
+          }
+        },
+        {
+          "id": 2,
+          "name": "Cloud Account Risk Assessment",
+          "data": {
+            "labels": ["Failed", "Warning", "Passed"],
+            "datasets": [{
+              "label": "Risk Assessment",
+              "data": [3699, 581, 7253],
+              "backgroundColor": ["#FF6384", "#FFCE56", "#36A2EB"],
+              "borderColor": ["#FF6384", "#FFCE56", "#36A2EB"],
+              "borderWidth": 1
+            }]
+          }
+        }
+      ]
+    },
+    {
+      "name": "CWPP Dashboard",
+      "widgets": [
+        {
+          "id": 3,
+          "name": "Top 5 Namespace Specific Alerts",
+          "data": {
+            "labels": ["Namespace1", "Namespace2", "Namespace3", "Namespace4", "Namespace5"],
+            "datasets": [{
+              "label": "Alerts",
+              "data": [20, 15, 30, 25, 10],
+              "backgroundColor": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0", "#9966FF"],
+              "borderColor": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0", "#9966FF"],
+              "borderWidth": 1
+            }]
+          }
+        },
+        {
+          "id": 4,
+          "name": "Workload Alerts",
+          "data": {
+            "labels": ["Critical", "High", "Medium", "Low"],
+            "datasets": [{
+              "label": "Workload Alerts",
+              "data": [5, 15, 20, 10],
+              "backgroundColor": ["#FF6384", "#FFCE56", "#36A2EB", "#4BC0C0"],
+              "borderColor": ["#FF6384", "#FFCE56", "#36A2EB", "#4BC0C0"],
+              "borderWidth": 1
+            }]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Registry Scan",
+      "widgets": [
+        {
+          "id": 5,
+          "name": "Image Risk Assessment",
+          "data": {
+            "labels": ["Critical", "High", "Medium"],
+            "datasets": [{
+              "label": "Vulnerabilities",
+              "data": [300, 650, 520],
+              "backgroundColor": ["#FF6384", "#FFCE56", "#36A2EB"],
+              "borderColor": ["#FF6384", "#FFCE56", "#36A2EB"],
+              "borderWidth": 1
+            }]
+          }
+        },
+        {
+          "id": 6,
+          "name": "Image Security Issues",
+          "data": {
+            "labels": ["Issues", "No Issues"],
+            "datasets": [{
+              "label": "Security Issues",
+              "data": [2, 0],
+              "backgroundColor": ["#FF6384", "#36A2EB"],
+              "borderColor": ["#FF6384", "#36A2EB"],
+              "borderWidth": 1
+            }]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Network Traffic Overview",
+      "widgets": [
+        {
+          "id": 7,
+          "name": "Traffic Summary",
+          "data": {
+            "labels": ["Inbound", "Outbound"],
+            "datasets": [{
+              "label": "Network Traffic",
+              "data": [500, 300],
+              "backgroundColor": ["#FF6384", "#36A2EB"],
+              "borderColor": ["#FF6384", "#36A2EB"],
+              "borderWidth": 1
+            }]
+          }
+        },
+        {
+          "id": 8,
+          "name": "Top Talkers",
+          "data": {
+            "labels": ["Server1", "Server2"],
+            "datasets": [{
+              "label": "Data Usage",
+              "data": [200, 150],
+              "backgroundColor": ["#FF6384", "#36A2EB"],
+              "borderColor": ["#FF6384", "#36A2EB"],
+              "borderWidth": 1
+            }]
+          }
+        }
+      ]
+    },
+    {
+      "name": "System Health Dashboard",
+      "widgets": [
+        {
+          "id": 9,
+          "name": "CPU Usage",
+          "data": {
+            "labels": ["Average", "Peak"],
+            "datasets": [{
+              "label": "CPU Usage",
+              "data": [55, 80],
+              "backgroundColor": ["#FF6384", "#36A2EB"],
+              "borderColor": ["#FF6384", "#36A2EB"],
+              "borderWidth": 1
+            }]
+          }
+        },
+        {
+          "id": 10,
+          "name": "Memory Usage",
+          "data": {
+            "labels": ["Used", "Free"],
+            "datasets": [{
+              "label": "Memory Usage",
+              "data": [12, 8],
+              "backgroundColor": ["#FF6384", "#36A2EB"],
+              "borderColor": ["#FF6384", "#36A2EB"],
+              "borderWidth": 1
+            }]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Application Performance",
+      "widgets": [
+        {
+          "id": 11,
+          "name": "Response Times",
+          "data": {
+            "labels": ["Average", "Max"],
+            "datasets": [{
+              "label": "Response Times",
+              "data": [200, 500],
+              "backgroundColor": ["#FF6384", "#36A2EB"],
+              "borderColor": ["#FF6384", "#36A2EB"],
+              "borderWidth": 1
+            }]
+          }
+        },
+        {
+          "id": 12,
+          "name": "Error Rates",
+          "data": {
+            "labels": ["Errors"],
+            "datasets": [{
+              "label": "Error Rates",
+              "data": [5],
+              "backgroundColor": ["#FF6384"],
+              "borderColor": ["#FF6384"],
+              "borderWidth": 1
+            }]
+          }
+        }
+      ]
+    }
+  ]
+}
